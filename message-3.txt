@@ -1,0 +1,4604 @@
+WhiteTiger_Right_Dot_1:
+    spell-class: ".instant.ParticleProjectileSpell" 
+    projectile-velocity: 1
+    projectile-gravity: 0
+    projectile-spread: 0
+    projectile-horiz-offset: -140
+    projectile-vert-offset: 0
+    particle-name: cloud
+    particle-speed: 0.005
+    particle-count: 1
+    particle-horizontal-spread: 0.5
+    particle-vertical-spread: 0.5
+    tick-interval: 1
+    spell-interval: 3
+    special-effect-interval: 2
+    max-distance: 0
+    max-duration: 0
+    hit-players: true
+    hit-non-players: true
+    start-y-offset: 1
+    start-z-offset: 0
+    set-y-offset: true
+    start-forward-offset: 0
+    hit-air-at-end: true
+    hit-air-during: true
+    stop-on-hit-entity: true
+    stop-on-hit-ground: true
+    spell: take
+    effects:
+      WhiteTiger_Dot_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "2.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "2.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "2.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "2.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_20:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_21:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_22:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_23:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_24:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_25:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_26:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_27:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_28:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 000000
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_29:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_30:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_31:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_32:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_33:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "0"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.2"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.4"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.6"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_2_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.2"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.4"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "1.6"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_3_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-0.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_4_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_4_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_4_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_4_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_5_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_5_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_5_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_5_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-0.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 00D8FF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_6_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "8"
+            zEquation: "0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 00D8FF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_7_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "8"
+            zEquation: "-0.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_8_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_8_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_8_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_8_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.0"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFE400
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_8_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_9_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_9_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_9_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_9_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.0"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFE400
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_9_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "-0.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+            speed: 0
+            orient: true
+            orientPitch: true
+      WhiteTiger_Dot_10_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.2"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.8"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_10_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_20:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_21:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.0"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_10_22:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_23:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_24:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_10_25:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.2"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.8"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_11_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_20:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_21:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.0"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_11_22:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_23:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_24:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_11_25:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.8"
+            zEquation: "-1"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.8"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_12_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_12_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_12_20:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_12_21:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "3.8"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_13_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: 747474
+      WhiteTiger_Dot_13_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_13_20:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_13_21:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-1.2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_14_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_14_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.2"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.4"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.6"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_15:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_16:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_17:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_15_18:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_15_19:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.6"
+            zEquation: "-1.4"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_16_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_16_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_16_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_16_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_16_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "4.8"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.2"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_17_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_17_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_17_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: A6A6A6
+      WhiteTiger_Dot_17_11:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_12:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_13:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_17_14:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.4"
+            zEquation: "-1.6"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_18_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.4"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.6"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "5.8"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_5:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_6:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_7:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_8:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.8"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_9:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_19_10:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "7.2"
+            zEquation: "-1.8"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_20_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_20_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_20_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_20_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_21_1:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6"
+            zEquation: "-2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_21_2:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.2"
+            zEquation: "-2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_21_3:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.4"
+            zEquation: "-2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
+      WhiteTiger_Dot_21_4:
+        position: special
+        effect: effectlib
+        effectlib:
+            class: EquationEffect
+            xEquation: "6.6"
+            zEquation: "-2"
+            yEquation: "0"
+            pitch: 0
+            yawOffset: 0
+            particle: redstone
+            particles: 1
+            duration: 0
+            color: FFFFFF
